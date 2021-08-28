@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+
+/* Nav Start */
+nav {
+    background-color: #282828;
+    height: 78px; 
+    position: sticky;  
+}
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 78px;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+li {
+    list-style: none;
+    padding: 10px 20px 10px 20px;
+    
+    font-family: 'Overpass';
+    font-size: 14px;
+}
+
+li:nth-child(2) {
+    position: absolute;
+    left: 0;
+    margin-left: 80px;
+    font-family: 'Crimson Text';
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+li:nth-child(9){
+    margin-top: 10px;
+}
+
+li:nth-child(10) {
+     background-color: #3b81ac;
+     padding: 28px 20px 28px;
+     border-left: 2px solid white;
+     border-right: 2px solid white;
+}
+
+li:nth-child(11){
+    background-color: #d2443f;
+    padding-top: 28px;
+    padding-bottom: 28px;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/* NAV END */
+
+/* Showcase */
+
+.showcase {
+    min-width: 90vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video {
+    width: 100%;
+    z-index: 0;
+}
+
+.showinfo {
+    color: white;
+    z-index: 1;
+    position: relative;
+    margin-top: -40%;
+    text-align: center;
+
+    
+}
+
+.showinfo > h1{
+    width: 60%;
+    margin: auto;
+    font-size: 50px;
+    font-family: 'Overpass';
+    text-transform: uppercase;    
+    background-color: rgba(0,0,0,.5);
+    letter-spacing: 10px;
+}
+
+.showinfo > p {
+    margin-top: 20px;
+    margin-left: 20%;
+    font-family: 'Overpass';
+    text-align: left;
+    letter-spacing: 5px;
+    font-size: 30px;
+    background-color: red;
+    width: 14%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
